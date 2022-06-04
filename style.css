@@ -8,16 +8,17 @@ p {
 a {
     text-decoration: none;
 }
-.background {
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
     width: 100%;
     height: 100vh;
-    background: url(img/background_header.png) no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
 
-.header {
-    padding: 10px 40px;
+    background: url(img/background_header.png) no-repeat;
+    background-size: cover;
 }
 
 .nav {
