@@ -3,61 +3,32 @@ body {
     color: #AAA4A4;
     margin: 0;
 }
+
 p {
     color: #AAA4A4;
 }
+
 a {
     text-decoration: none;
 }
 
 h1 {
-    font: size 84px;
+    font-size: 84px;
     color: white;
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Noto Sans", sans-serif;
-  color: #aaa4a4;
-}
-p {
-  color: #aaa4a4;
-}
-a {
-  text-decoration: none;
-}
-
-h1 {
-  font-size: 84px;
-  color: white;
 }
 
 h2 {
-  font-size: 17px;
-  color:white;
+    font-size: 17px;
+    color: white;
 
 }
 
 h3 {
-    font-size: 58x;
+    font-size: 58px;
     color: white;
 }
 
 h4 {
     font-size: 19px;
-    color: #AAA4A4;
-}
-  color: white;
-}
-
-h3 {
-  font-size: 58px;
-  color: white;
-}
-
-h4 {
-  font-size: 19px;
-  color: #aaa4a4;
+    color: #aaa4a4;
 }
