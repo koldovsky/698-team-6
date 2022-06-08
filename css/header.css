@@ -85,13 +85,19 @@
 }
 
 /* BUTTONS */
-.span__header {
+.buttons {
+    letter-spacing: 0.1px;
+    font-family: Teko, sans-serif;
+}
+
+.span {
     letter-spacing: 0.1px;
     font-family: Teko, sans-serif;
 }
 
 .nubex__one {
     display: inline-block;
+
     background-color: #e51937;
     color: white;
 
