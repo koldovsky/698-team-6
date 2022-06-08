@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Teko:wght@400;500&display=swap');
+
+:root {
+     font-family: 'Noto Sans', sans-serif;
+     --title-font-family: 'Teko', sans-serif;
+     --brand-color: #E51937;
+     --text-color: #AAA4A4;
+     --title-color: #FFFFFF;
+     --body-background-color: #131313;
+ }
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ .gallery img {
+     display: block;
+     width: 100%;
+     width: 313px;
+     height: 298px;
+ }
+
+ body {
+     background-color: var(--body-background-color);
+     color: var(--text-color);
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ .container-bottom {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 15px;
+ }
