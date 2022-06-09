@@ -1,16 +1,22 @@
-body {
-    font-family: Noto Sans, sans-serif;
-    color: #AAA4A4;
+/*Стилі обов'язкові для всіх*/
+* {
     margin: 0;
-}
+    padding: 0;
+    }
 
-p {
+:root {
+     font-family: 'Noto Sans', sans-serif;
+    }
+ 
+body {
     color: #AAA4A4;
+    background-color: #131313;
 }
 
 a {
     text-decoration: none;
 }
+
 /* Поки закоментувала, бо всі заголовки на сторінці стають дуже великі і викликають горизонтальний скрол
 h1 {
     font-size: 84px;
