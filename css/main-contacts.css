@@ -5,6 +5,8 @@
     --brand-color: #E51937;
     --text-color: #AAA4A4;
     --title-color: #FFFFFF;
+    --input-color: #2a2a2a;
+    scroll-behavior: smooth;
 }
 
 .gallery img {
