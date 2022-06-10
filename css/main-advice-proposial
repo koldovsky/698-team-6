@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+.advice__button {
+   
+    color: #fff;
+
+}
+.advice__banner {
+  
+    color:#fff;
+}
