@@ -63,6 +63,10 @@
     font-weight: 700;
     letter-spacing: 1.7px;
 }
+.footer-menu-item a:hover{
+    color: var(--title-color);
+    text-decoration: underline;
+}
 .footer-form {
     display: flex;
     flex-direction: column;
