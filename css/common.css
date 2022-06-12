@@ -1,34 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Teko:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Teko:wght@400;500&display=swap");
 
 :root {
-    font-family: 'Noto Sans', sans-serif;
-    --title-font-family: 'Teko', sans-serif;
-    --brand-color: #E51937;
-    --text-color: #AAA4A4;
-    --title-color: #FFFFFF;
-    --input-color: #2a2a2a;
-    --background-color: #1a1a1a;
-    scroll-behavior: smooth;
+  font-family: "Noto Sans", sans-serif;
+  --title-font-family: "Teko", sans-serif;
+  --brand-color: #e51937;
+  --text-color: #aaa4a4;
+  --title-color: #ffffff;
+  --input-color: #2a2a2a;
+  --background-color: #1a1a1a;
+  scroll-behavior: smooth;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    }
- 
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    color: var(--title-color);
-    background-color: var(--background-color);
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 h1 {
-    font-size: 84px;
-    color: white;
+  font-size: 84px;
+  color: white;
 }
 /* Поки закоментувала, бо всі заголовки на сторінці стають дуже великі і викликають горизонтальний скрол
 h2 {
