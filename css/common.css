@@ -1,16 +1,29 @@
-/*Стилі обов'язкові для всіх*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Teko:wght@400;500&display=swap');
+
+:root {
+    font-family: 'Noto Sans', sans-serif;
+    --title-font-family: 'Teko', sans-serif;
+    --brand-color: #E51937;
+    --text-color: #AAA4A4;
+    --title-color: #FFFFFF;
+    --input-color: #2a2a2a;
+    --background-color: #1a1a1a;
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
     }
-
-:root {
-     font-family: 'Noto Sans', sans-serif;
-    }
  
 body {
+<<<<<<< HEAD
     color: #AAA4A4;
     background-color: #1a1a1a;
+=======
+    color: var(--title-color);
+    background-color: var(--background-color);
+>>>>>>> 69e7c687553af23a10499bba9d06ff4498800532
 }
 
 a {
