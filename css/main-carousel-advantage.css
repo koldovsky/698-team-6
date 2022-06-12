@@ -1,0 +1,73 @@
+.carousel-container{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card_advantage {
+    border: 1px solid #131313;
+    background-color: #131313;
+    padding: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    align-items: left;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+.carousel__advantage-image {
+  width: 70px;
+  padding-top: 10px;
+}
+
+.carousel__advantage-title {
+  font-family: Teko, sans-serif;
+  font-size: 28px;
+  color: white;
+  font-weight: 500;
+}
+
+.carousel-line {
+  width: 50px;
+  border: 1.5px solid rgb(230, 18, 52);;
+  background-color: rgb(230, 18, 52);
+  margin: 10px 0 10px 0;
+}
+
+.carousel__advantage-text {
+  font-family: Noto-Sans, sans-serif;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.carousel{
+    padding: 60px 32px 60px 32px;
+}
+
+@media (min-width:320px) {
+  .carousel__advantage{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+}
+
+@media (min-width:760px) {
+  .carousel__advantage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+}
+
+@media (min-width:1200px) {
+    .carousel__advantage{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 5px;
+    }
+}
+
+
