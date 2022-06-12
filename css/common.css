@@ -17,13 +17,8 @@
     }
  
 body {
-<<<<<<< HEAD
-    color: #AAA4A4;
-    background-color: #1a1a1a;
-=======
     color: var(--title-color);
     background-color: var(--background-color);
->>>>>>> 69e7c687553af23a10499bba9d06ff4498800532
 }
 
 a {

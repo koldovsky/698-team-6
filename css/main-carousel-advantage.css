@@ -1,29 +1,19 @@
-<<<<<<< HEAD
 .carousel-container{
   padding-left: 40px;
   padding-right: 40px;
   margin-left: 20px;
   margin-right: 20px;
 }
-=======
->>>>>>> 69e7c687553af23a10499bba9d06ff4498800532
 
 .card_advantage {
     border: 1px solid #131313;
     background-color: #131313;
     padding: 20px;
-<<<<<<< HEAD
     margin-right: 15px;
     margin-left: 15px;
     align-items: left;
     display: block;
     box-sizing: border-box;
-=======
-    margin-right: 5px;
-    margin-left: 5px;
-    align-items: left;
->>>>>>> 69e7c687553af23a10499bba9d06ff4498800532
-
 }
 
 .carousel__advantage-image {
@@ -35,10 +25,7 @@
   font-family: Teko, sans-serif;
   font-size: 28px;
   color: white;
-<<<<<<< HEAD
   font-weight: 500;
-=======
->>>>>>> 69e7c687553af23a10499bba9d06ff4498800532
 }
 
 .carousel-line {
@@ -82,7 +69,3 @@
     }
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 69e7c687553af23a10499bba9d06ff4498800532
