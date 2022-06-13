@@ -68,3 +68,10 @@
     flex-direction: column;
     align-items: flex-start;
 }
+.leasing-learn a {
+    text-decoration: none;
+    color: var(--title-color);
+}
+.leasing-learn a:hover {
+    text-decoration: underline;
+}
