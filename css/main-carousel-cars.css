@@ -1,0 +1,90 @@
+.cars-carousel-container {
+  display: block;
+  box-sizing: border-box;
+}
+
+.cars__title {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Teko, sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  color: var(--title-color);
+}
+
+.cars__big-title {
+  text-align: center;
+  font-family: Teko, sans-serif;
+  font-weight: 500;
+  font-size: 76px;
+  color: var(--title-color);
+}
+
+.cars__text {
+  text-align: center;
+  font-family: Noto sans, sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  color: var(--text-color);
+}
+
+.cars__carousel-image {
+  width: 310px;
+}
+
+.cars__carousel {
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+}
+
+.cars__carousel-brand {
+  font-family: Teko, sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: var(--title-color);
+}
+
+.cars__carousel-prise {
+  font-family: Noto sans, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--brand-color);
+}
+
+.cars_carousel-model .cars__carousel-characteristics {
+  font-family: Noto sans, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: var(--text-color);
+}
+
+.cars__carousel-learn {
+  font-family: Teko, sans-serif;
+  text-decoration: none;
+  color: var(--title-color);
+  font-size: 18px;
+}
+
+@media (min-width: 320px) {
+  .cars-carousel-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+}
+
+@media (min-width: 760px) {
+  .cars-carousel-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cars-carousel-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
