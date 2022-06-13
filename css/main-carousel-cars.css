@@ -1,6 +1,7 @@
 .cars-carousel-container {
-  display: block;
+  display: flex;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 .cars__title {
@@ -30,6 +31,7 @@
 
 .cars__carousel-image {
   width: 310px;
+  height: 110px;
 }
 
 .cars__carousel {
@@ -67,24 +69,24 @@
 }
 
 @media (min-width: 320px) {
-  .cars-carousel-container {
+  .cars__carousel {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 320px;
     gap: 5px;
   }
 }
 
 @media (min-width: 760px) {
-  .cars-carousel-container {
+  .cars__carousel {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 320px 320px;
     gap: 5px;
   }
 }
 
-@media (min-width: 1200px) {
-  .cars-carousel-container {
+@media (min-width: 980px) {
+  .cars__carousel {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 320px 320px 320px;
   }
 }
