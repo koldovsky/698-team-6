@@ -1,7 +1,12 @@
+.cars-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .cars-carousel-container {
   display: flex;
-  box-sizing: border-box;
-  justify-content: center;
+  justify-content: space-around;
+  padding-top: 40px;
 }
 
 .cars__title {
@@ -30,14 +35,14 @@
 }
 
 .cars__carousel-image {
-  width: 310px;
-  height: 110px;
+  width: 90%;
+  height: 40%;
 }
 
 .cars__carousel {
   text-align: center;
-  display: block;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .cars__carousel-brand {
@@ -66,6 +71,10 @@
   text-decoration: none;
   color: var(--title-color);
   font-size: 18px;
+}
+
+.cars__carousel-learn:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 320px) {
