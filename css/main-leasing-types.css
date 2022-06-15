@@ -1,0 +1,8 @@
+.leasing__types {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+}
+.leasing__types-business-image {
+    min-width: 272px;
+}
