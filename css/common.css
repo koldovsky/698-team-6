@@ -28,6 +28,7 @@ a {
 
 .container-main {
   max-width: 1170px;
+  width: 100%;
   margin: auto;
   padding-left: 24px;
   padding-right: 24px;
