@@ -8,13 +8,17 @@
     text-align: center;
     text-transform: uppercase;
     display: flex;
-
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+    padding-top: 40px;
 }
 
 @media (min-width: 352px) {
     .advice__banner {
         display: flex;
         flex-direction: row;
+        text-align: center;
     }
 }
 
@@ -22,12 +26,12 @@
     .advice__button {
         display: flex;
         flex-direction: block;
+        text-align: center;
     }
 }
 
 .advice {
     text-align: center;
-
 }
 
 .advice__button {
@@ -36,7 +40,6 @@
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-   
 }
 
 .button__consultation {
@@ -47,7 +50,6 @@
     padding-right: 40px;
     padding-top: 13.5px;
     border: 2px solid var(--brand-color);
-    
 }
 
 .button-more {
@@ -91,11 +93,18 @@
     background-image: url(../img/advice/headlight_advice.webp);
 }
 
+.proposal__div {
+    margin-top: 100px;
+    padding-top: 400px;
+}
+
 .proposal__price {
     color: var(--brand-color);
     text-transform: uppercase;
 }
 
 .container__proposal {
-    display: grid;
+    display: flex;
+    padding-bottom: 100px;
+    box-sizing: border-box;
 }
