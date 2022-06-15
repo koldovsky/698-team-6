@@ -26,11 +26,35 @@ a {
   text-decoration: none;
 }
 
+.container-main {
+  max-width: 1170px;
+  margin: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media (min-width: 768px) {
+  .container-main {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (min-width: 992px) {
+  .container-main {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 1280px) {
+  .container-main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/*
 h1 {
   font-size: 84px;
   color: white;
 }
-/* Поки закоментувала, бо всі заголовки на сторінці стають дуже великі і викликають горизонтальний скрол
 h2 {
     font-size: 17px;
     color: white;

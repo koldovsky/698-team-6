@@ -1,168 +1,166 @@
 /* Iryna Shtynda start */
 .footer {
-    margin-top: 80px;
+  padding-top: 80px;
 }
 
 .footer__top {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 30px;
-    border-bottom: 1px solid var(--text-color);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--text-color);
 }
 
 .footer__top-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  flex: 1;
 }
 
 .footer-logo img {
-    width: 174px;
-    height: 37px;
-    cursor: pointer;
+  width: 174px;
+  height: 37px;
+  cursor: pointer;
 }
 
 .footer-description {
-    font-size: 12px;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .footer-socials {
-    display: flex;
-    margin-top: 30px;
+  display: flex;
+  margin-top: 30px;
 }
 
 .footer-icon img {
-    width: 14px;
-    height: 14px;
-    padding: 7px;
-    background-color: var(--brand-color);
-    margin: 0 8px;
-    opacity: 1;
+  width: 14px;
+  height: 14px;
+  padding: 7px;
+  background-color: var(--brand-color);
+  margin: 0 8px;
+  opacity: 1;
 }
 
 .footer-icon img:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .footer-title {
-    font-family: var(--title-font-family);
-    color: var(--title-color);
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: 500;
-    letter-spacing: 0.24px;
-    margin-bottom: 20px;
+  font-family: var(--title-font-family);
+  color: var(--title-color);
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+  margin-bottom: 20px;
 }
 
 .footer-menu {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
 }
 
 .footer-menu-item a {
-    color: var(--text-color);
-    font-size: 17px;
-    font-weight: 700;
-    letter-spacing: 1.7px;
+  color: var(--text-color);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
 }
 
 .footer-menu-item a:hover {
-    color: var(--title-color);
-    text-decoration: underline;
+  color: var(--title-color);
+  text-decoration: underline;
 }
 
 .footer-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
 }
 
 .footer input {
-    width: 100%;
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    text-align: center;
-    background-color: var(--input-color);
-    border: none;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+  background-color: var(--input-color);
+  border: none;
 }
 
 input.footer-button {
-    background-color: var(--brand-color);
-    font-family: var(--title-font-family);
-    color: var(--title-color);
-    font-size: 18px;
-    font-weight: 400;
-    opacity: 1;
+  background-color: var(--brand-color);
+  font-family: var(--title-font-family);
+  color: var(--title-color);
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 1;
 }
 
 input.footer-button:hover {
-    cursor: pointer;
-    opacity: 0.7;
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .footer__bottom {
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  gap: 20px;
 }
 
 .footer__bottom-text {
-    font-size: 12px;
-    font-weight: 700;
-    text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
-    .footer__top {
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-    }
+  .footer__top {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
 
-    .footer__bottom {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .footer__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    .footer__top-inner {
-        align-items: flex-start;
-    }
+  .footer__top-inner {
+    align-items: flex-start;
+  }
 
-    .footer-description {
-        text-align: left;
-    }
+  .footer-description {
+    text-align: left;
+  }
 
-    .footer-menu {
-        align-items: flex-start;
-        text-align: left;
-    }
+  .footer-menu {
+    align-items: flex-start;
+    text-align: left;
+  }
 
-    .footer-title {
-        font-size: 28px;
-        line-height: 28px;
-    }
+  .footer-title {
+    font-size: 28px;
+    line-height: 28px;
+  }
 
-    .footer-menu-item a {
-        font-size: 12px;
+  .footer-menu-item a {
+    font-size: 12px;
+  }
 
-    }
-
-    .footer__bottom-text {
-        font-size: 13px;
-    }
+  .footer__bottom-text {
+    font-size: 13px;
+  }
 }
