@@ -81,7 +81,7 @@ font-size: 17px;
   
   .cards__btn:hover {
     background-color: var(--active-btn-color);
-    border-color: (--active-btn-color);
+    border-color: var(--active-btn-color);
     transition: 0.7s;
   }
   /* для кольорів потім будуть змінні*/
@@ -91,7 +91,7 @@ font-size: 17px;
     transition: 0.7s;
   }
 
-  @media (min-width: 320px) {
+@media (min-width: 320px) {
     #cards__wrapper{
         display: grid;
         grid-template-columns: 1fr;
