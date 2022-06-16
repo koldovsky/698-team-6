@@ -24,7 +24,7 @@
 
 .carousel__advantage-title {
   font-family: Teko, sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   color: white;
   font-weight: 500;
 }
@@ -60,6 +60,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 5px;
   }
+  .carousel__advantage-title {
+    font-size: 26px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -67,5 +70,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
+  }
+  .carousel__advantage-title {
+    font-family: Teko, sans-serif;
+    font-size: 28px;
   }
 }

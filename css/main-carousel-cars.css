@@ -48,14 +48,14 @@
 .cars__carousel-brand {
   font-family: Teko, sans-serif;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 24px;
   color: var(--title-color);
 }
 
 .cars__carousel-prise {
   font-family: Noto sans, sans-serif;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--brand-color);
 }
 
@@ -82,7 +82,7 @@
     display: grid;
     grid-template-columns: 320px;
     gap: 5px;
-  }
+  } 
 }
 
 @media (min-width: 760px) {
@@ -91,11 +91,21 @@
     grid-template-columns: 320px 320px;
     gap: 5px;
   }
+  .cars__carousel-brand {
+    font-size: 26px;
+  }
+  
 }
 
 @media (min-width: 980px) {
   .cars__carousel {
     display: grid;
     grid-template-columns: 320px 320px 320px;
+  }
+  .cars__carousel-brand {
+    font-size: 28px;
+  }
+  .cars__carousel-prise {
+    font-size: 13px;
   }
 }
