@@ -128,13 +128,11 @@ input.footer-button:hover {
 
 @media (min-width: 768px) {
   .footer__top {
-    display: flex;
     flex-direction: row;
     gap: 30px;
   }
 
   .footer__bottom {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
