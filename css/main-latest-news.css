@@ -90,3 +90,24 @@ font-size: 17px;
     color: black;
     transition: 0.7s;
   }
+
+  @media (min-width: 320px) {
+    #cards__wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+}
+
+@media (min-width: 768px) {
+    #cards__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+}
+
+@media (min-width: 980px) {
+    #cards__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+}
