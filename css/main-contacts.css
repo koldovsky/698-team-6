@@ -10,10 +10,14 @@ li {
 }
 
 .contacts {
-  display: flex;
-  flex-direction: column;
+  background-color: var(--background-bottom-color);
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.contacts .container-main {
+  display: flex;
+  flex-direction: column;
   gap: 60px;
 }
 
@@ -72,7 +76,7 @@ li {
 }
 
 @media (min-width: 768px) {
-  .contacts {
+  .contacts .container-main {
     flex-direction: row;
     justify-content: space-between;
     gap: 30px;
@@ -108,11 +112,15 @@ li {
 }
 
 .gallery {
+  background-color: var(--background-bottom-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.gallery .container-main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .gallery__photo {

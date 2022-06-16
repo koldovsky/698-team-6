@@ -1,0 +1,113 @@
+#cars__news-main{
+padding: 0 17%;
+}
+
+.cars__news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cars__news-title {
+color: var(--title-color);
+font-family: Teko, sans-serif;
+font-size: 21px;
+font-weight: 300;
+margin-top: 100px;
+}
+
+.cars__news-big-title {
+color: var(--title-color);
+font-family: Teko, sans-serif;
+font-size: 76px;
+font-weight: 500;
+}
+/*Add it to the media query*/
+#cards__wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cars_news-card {
+padding: 0 20px;
+}
+
+.cars__news-introduction {
+font-family: Noto sans;
+color: var(--text-color);
+font-size: 19px;
+font-weight: 600;
+margin-bottom: 50px;
+}
+
+.cars__img {
+    width: 100%;
+}
+
+.cards__title {
+color: var(--brand-color);
+font-family: Noto sans;
+font-size: 13px;
+margin: 20px 0;
+}
+
+.class__block-title {
+color: var(--title-color);
+text-transform: uppercase;
+font-family: Teko, sans-serif;
+font-size: 28px;
+font-weight: 500;
+}
+
+.class__block-paragraph {
+color: var(--text-color);
+font-family: Noto sans, sans-serif;
+font-size: 17px;
+}
+
+.cards__btn {
+    background: var(--brand-color);
+    display: inline-block;
+    border: 1px solid var(--brand-color);
+    text-decoration: none;
+    padding: 15px 35px; /*зміна відстані тексту від рамки кнопки*/
+    margin: 20px 0; /*зміна відстані рамки кнопки від інших об'єктів*/
+    cursor: pointer;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .cards__btn:hover {
+    background-color: var(--active-btn-color);
+    border-color: var(--active-btn-color);
+    transition: 0.7s;
+  }
+  /* для кольорів потім будуть змінні*/
+  .cards__btn:active{
+    background-color: white; 
+    color: black;
+    transition: 0.7s;
+  }
+
+@media (min-width: 320px) {
+    #cards__wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+}
+
+@media (min-width: 768px) {
+    #cards__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+}
+
+@media (min-width: 980px) {
+    #cards__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+}
