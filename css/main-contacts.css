@@ -1,4 +1,7 @@
 /* Iryna Shtynda start */
+* {
+  box-sizing: border-box;
+}
 
 .gallery img {
   display: block;
