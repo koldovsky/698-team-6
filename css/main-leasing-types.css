@@ -44,6 +44,7 @@
   font-weight: 100;
   padding: 2px;
 }
+
 .leasing__types-businesstext {
   font-family: var(--font-family);
   color: var(--text-color);
@@ -63,7 +64,7 @@
 }
 
 .leasing__types-learnbutton:hover {
-  background-color: #c40b27;
+  background-color: var(--active-btn-color);
 }
 
 .leasing__types-personal-image {
@@ -74,6 +75,7 @@
   min-width: 272px;
   padding-top: 30px;
 }
+
 .leasing__types-personaltext {
   font-family: var(--font-family);
   color: var(--text-color);
