@@ -1,3 +1,11 @@
+:root {
+    --white: #ffff;
+    --gray: #AAA4AA;
+    --red: #e51937;
+    --red_white: #c40b27;
+    --backgrund-color: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -15,7 +23,10 @@
 }
 
 .text__header {
-    color:#ffff;
+
+    font-family: Teko, sans-serif;
+    font-weight: 500;
+    color: var(--white);
 }
 
 .container__header {
@@ -25,6 +36,12 @@
 .text__header {
     font-size: 60px;
     text-align: left;
+    line-height: 0.9em;
+}
+
+.subtitle__header {
+    position: absolute;
+    margin-top: 20px;
 }
 
 .banner__header {
@@ -53,7 +70,7 @@
 .nav__link {
     position: relative;
     font-weight: bold;
-    color: #AAA4AA;
+    color: var(--gray);
     cursor: pointer;
     line-height: 1;
     text-decoration: none;
@@ -66,14 +83,15 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #ffff;
+    background-color: var(--white);
     content: "";
     transition: color .2s linear;
     transition: width 0.3s ease-out;
 }
 
 .nav__link:hover {
-    color: #ffff;
+    color: var(--white);
+    ;
 }
 
 .nav__link:hover::after,
@@ -92,6 +110,7 @@
 .buttons {
     letter-spacing: 0.1px;
     font-family: Teko, sans-serif;
+    margin: 50px;
 }
 
 .span {
@@ -102,8 +121,8 @@
 .nubex__one {
     display: inline-block;
 
-    background-color: #e51937;
-    color: white;
+    background-color: var(--red);
+    color: var(--white);
 
     padding: 1.7rem 2.5rem;
 
@@ -115,7 +134,7 @@
 }
 
 .nubex__one:hover {
-    background-color: #c40b27
+    background-color: var(--red_white);
 }
 
 .nubex__two {
@@ -125,8 +144,10 @@
 
     padding: 1.4rem 2.5rem;
     border: 2px solid rgb(229, 25, 55);
-    color: white;
+    color: var(--white);
+    ;
     transition: background .2s linear;
+    margin-left: 15px;
 }
 
 .nubex__two:hover {
