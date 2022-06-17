@@ -19,6 +19,7 @@
         display: flex;
         flex-direction: row;
         text-align: center;
+        justify-content: center;
     }
 }
 
@@ -41,7 +42,7 @@
     margin-top: 30px;
 }
 
-.advice__general > img {
+.advice__general>img {
     display: block;
 }
 
