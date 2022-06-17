@@ -1,207 +1,170 @@
 /* Iryna Shtynda start */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Teko:wght@400;500&display=swap');
-
-:root {
-    --title-font-family: 'Teko', sans-serif;
-    --brand-color: #E51937;
-    --text-color: #AAA4A4;
-    --title-color: #FFFFFF;
-    --input-color: #2a2a2a;
-    scroll-behavior: smooth;
-}
-
 .gallery img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 li {
-    list-style: none;
-}
-
-.container-bottom {
-    max-width: 1170px;
-    margin: auto;
-    padding: 0 24px;
+  list-style: none;
 }
 
 .contacts {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  background-color: var(--background-bottom-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
+.contacts .container-main {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
 
 .contacts__content-title {
-    font-family: var(--title-font-family);
-    font-size: 38px;
-    color: var(--title-color);
-    font-weight: 400;
-    line-height: 38px;
+  font-family: var(--title-font-family);
+  font-size: 38px;
+  color: var(--title-color);
+  font-weight: 400;
+  line-height: 38px;
 }
 
 .active {
-    color: var(--brand-color);
+  color: var(--brand-color);
 }
 
 .contacts__content-description {
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 30px;
-    margin-top: 25px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 25px;
 }
 
 .contacts__content-inner {
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-    margin-bottom: 60px;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  gap: 16px;
 }
 
 .contact {
-    display: flex;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
 .contact-icon {
-    width: 20px;
-    height: 24px;
+  width: 20px;
+  height: 24px;
 }
 
 .contact-link {
-    margin-left: 10px;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--title-color);
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--title-color);
 }
 
 .contact-link:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .contacts__map iframe {
-    width: 100%;
-    height: 264px;
-    border: none;
-    padding-bottom: 30px;
+  width: 100%;
+  height: 264px;
+  border: none;
 }
 
 @media (min-width: 768px) {
-    .container-bottom {
-        padding: 0 32px;
-    }
+  .contacts .container-main {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
 
-    .contacts {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 30px;
-    }
+  .contacts__content {
+    flex: 7;
+  }
 
-    .contacts__content {
-        flex: 7;
-    }
+  .contacts__map {
+    flex: 5;
+  }
 
-    .contacts__map {
-        flex: 5;
-    }
+  .contacts__content-title {
+    font-size: 46px;
+  }
 
-    .contacts__content-title {
-        font-size: 46px;
-    }
-
-    .contacts__content-inner {
-        flex-direction: column;
-        gap: 16px;
-    }
-}
-
-@media (min-width: 894px) {
-    .contacts__content-inner {
-        flex-direction: row;
-        gap: 24px;
-    }
-
-    .contact-link {
-        font-size: 19px;
-    }
+  .contacts__content-inner {
+    flex-direction: row;
+    gap: 24px;
+  }
 }
 
 @media (min-width: 992px) {
-    .container-bottom {
-        padding: 0 40px;
-    }
+  .contacts__content-title {
+    font-size: 54px;
+    line-height: 54px;
+  }
 
-    .contacts__content-title {
-        font-size: 54px;
-        line-height: 54px;
-    }
-
-    .contact-link {
-        font-size: 21px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .container-bottom {
-        padding: 0 15px;
-    }
+  .contact-link {
+    font-size: 21px;
+  }
 }
 
 .gallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  background-color: var(--background-bottom-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.gallery .container-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .gallery__photo {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .gallery__photo:nth-child(2) {
-    display: none;
+  display: none;
 }
 
 .gallery__photo:nth-child(3) {
-    display: none;
+  display: none;
 }
 
 .gallery__photo:nth-child(4) {
-    display: none;
+  display: none;
 }
 
 .gallery__photo:nth-child(5) {
-    display: none;
+  display: none;
 }
 
 .gallery__photo:nth-child(6) {
-    display: none;
+  display: none;
 }
 
 @media (min-width: 480px) {
-    .gallery__photo:nth-child(2) {
-        display: block;
-    }
+  .gallery__photo:nth-child(2) {
+    display: block;
+  }
 }
 
 @media (min-width: 768px) {
-    .gallery__photo:nth-child(3) {
-        display: block;
-    }
+  .gallery__photo:nth-child(3) {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
-    .gallery__photo:nth-child(4) {
-        display: block;
-    }
+  .gallery__photo:nth-child(4) {
+    display: block;
+  }
 
-    .gallery__photo:nth-child(5) {
-        display: block;
-    }
+  .gallery__photo:nth-child(5) {
+    display: block;
+  }
 }

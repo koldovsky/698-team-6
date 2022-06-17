@@ -28,38 +28,3 @@
     margin-top: 80px;
     margin-bottom: 15px;
 }
-
-@media (min-width: 320px) {
-    .cards__nameplate {
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  @media (min-width: 560px) {
-    .cards__nameplate {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .cards__nameplate {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
-  
-  @media (min-width: 830px) {
-    .cards__nameplate {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-  }
-  
-  @media (min-width: 980px) {
-    .cards__nameplate {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-  }
