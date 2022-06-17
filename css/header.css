@@ -1,156 +1,150 @@
 :root {
-    --white: #ffff;
-    --gray: #AAA4AA;
-    --red: #e51937;
-    --red_white: #c40b27;
-    --backgrund-color: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))
+  --white: #ffff;
+  --gray: #aaa4aa;
+  --red: #e51937;
+  --red_white: #c40b27;
+  --backgrund-color: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0;
 }
 
 .intro {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url(../img/header/background_header.png) center no-repeat;
-    background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../img/header/background_header.png) center no-repeat;
+  background-size: cover;
 }
 
 .text__header {
-
-    font-family: Teko, sans-serif;
-    font-weight: 500;
-    color: var(--white);
+  font-family: Teko, sans-serif;
+  font-weight: 500;
+  color: var(--white);
 }
 
 .container__header {
-    padding: 20px 32px;
+  padding: 20px 32px;
 }
 
 .text__header {
-    font-size: 60px;
-    text-align: left;
-    line-height: 0.9em;
+  font-size: 60px;
+  text-align: left;
+  line-height: 0.9em;
 }
 
 .subtitle__header {
-    position: absolute;
-    margin-top: 20px;
+  position: absolute;
+  margin-top: 20px;
 }
 
 .banner__header {
-    padding: 155px 0px;
+  padding: 155px 0px;
 }
 
 /* Header */
 
 .header {
-    width: 100%;
-    position: absolute;
+  width: 100%;
+  position: absolute;
 
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 /* navigator */
 
 .nav {
-    font-size: 12px;
-    text-transform: uppercase;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .nav__link {
-    position: relative;
-    font-weight: bold;
-    color: var(--gray);
-    cursor: pointer;
-    line-height: 1;
-    text-decoration: none;
-    margin: 0 15px;
+  position: relative;
+  font-weight: bold;
+  color: var(--gray);
+  cursor: pointer;
+  line-height: 1;
+  text-decoration: none;
+  margin: 0 15px;
 }
 
 .nav__link::after {
-    display: block;
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--white);
-    content: "";
-    transition: color .2s linear;
-    transition: width 0.3s ease-out;
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--white);
+  content: "";
+  transition: color 0.2s linear;
+  transition: width 0.3s ease-out;
 }
 
 .nav__link:hover {
-    color: var(--white);
-    ;
+  color: var(--white);
 }
 
 .nav__link:hover::after,
 .nav__link:focus::after {
-    width: 100%;
+  width: 100%;
 }
 
 /* FLEX */
 
 .header__inner {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* BUTTONS */
 .buttons {
-    letter-spacing: 0.1px;
-    font-family: Teko, sans-serif;
-    margin: 50px;
+  letter-spacing: 0.1px;
+  font-family: Teko, sans-serif;
+  margin: 50px;
 }
 
 .span {
-    letter-spacing: 0.1px;
-    font-family: Teko, sans-serif;
+  letter-spacing: 0.1px;
+  font-family: Teko, sans-serif;
 }
 
 .nubex__one {
-    display: inline-block;
+  display: inline-block;
 
-    background-color: var(--red);
-    color: var(--white);
+  background-color: var(--red);
+  color: var(--white);
 
-    padding: 1.7rem 2.5rem;
+  padding: 1.7rem 2.5rem;
 
-    font-weight: 500;
-    line-height: 1;
-    font-weight: 100;
-    text-decoration: none;
-    transition: background .2s linear;
+  font-weight: 500;
+  line-height: 1;
+  font-weight: 100;
+  text-decoration: none;
+  transition: background 0.2s linear;
 }
 
 .nubex__one:hover {
-    background-color: var(--red_white);
+  background-color: var(--red_white);
 }
 
 .nubex__two {
-    display: inline-block;
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0));
+  display: inline-block;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
 
-    padding: 1.4rem 2.5rem;
-    border: 2px solid rgb(229, 25, 55);
-    color: var(--white);
-    ;
-    transition: background .2s linear;
-    margin-left: 15px;
+  padding: 1.4rem 2.5rem;
+  border: 2px solid rgb(229, 25, 55);
+  color: var(--white);
+  transition: background 0.2s linear;
+  margin-left: 15px;
 }
 
 .nubex__two:hover {
-    background:
-        linear-gradient(rgba(229, 25, 55, 1), rgba(229, 25, 55, 1));
+  background: linear-gradient(rgba(229, 25, 55, 1), rgba(229, 25, 55, 1));
 }
