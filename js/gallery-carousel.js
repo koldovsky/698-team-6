@@ -14,15 +14,19 @@
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.gallery-carousel .container-main .slider-container');
         slideContainer.innerHTML = slides[slideIndex];
-        if (window.matchMedia('(min-width: 768px)').matches) {
+        if (window.matchMedia('(min-width: 480px)').matches) {
             const secondSlideIndex = slideIndex + 1 >= slides.length ? 0 : slideIndex + 1;
             slideContainer.innerHTML += slides[secondSlideIndex];
-            if (window.matchMedia('(min-width: 992px)').matches) {
+            if (window.matchMedia('(min-width: 768px)').matches) {
                 const thirdSlideIndex = secondSlideIndex + 1 >= slides.length ? 0 : secondSlideIndex + 1;
                 slideContainer.innerHTML += slides[thirdSlideIndex];
                 if (window.matchMedia('(min-width: 992px)').matches) {
                     const fourthSlideIndex = thirdSlideIndex + 1 >= slides.length ? 0 : thirdSlideIndex + 1;
                     slideContainer.innerHTML += slides[fourthSlideIndex];
+                    if (window.matchMedia('(min-width: 1280px)').matches) {
+                        const fifthSlideIndex = fourthSlideIndex + 1 >= slides.length ? 0 : fourthSlideIndex + 1;
+                        slideContainer.innerHTML += slides[fifthSlideIndex];
+                    }
                 }
             }
         }
