@@ -165,13 +165,14 @@ li {
 }
 
 @media (min-width: 1280px) {
-  .gallery-carousel .container-main .slider-container {
+  .gallery-carousel .container-main {
     padding: 0;
   }
 
   .gallery-carousel .container-main button {
     background-color: var(--background-bottom-color);
     border: none;
+    padding: 0;
   }
 
   .gallery-carousel .container-main button img {
