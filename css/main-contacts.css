@@ -91,17 +91,17 @@ li {
   .contacts__content-title {
     font-size: 46px;
   }
-
-  .contacts__content-inner {
-    flex-direction: row;
-    gap: 24px;
-  }
 }
 
 @media (min-width: 992px) {
   .contacts__content-title {
     font-size: 54px;
     line-height: 54px;
+  }
+
+  .contacts__content-inner {
+    flex-direction: row;
+    gap: 24px;
   }
 
   .contact-link {
