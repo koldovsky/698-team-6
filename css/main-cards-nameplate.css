@@ -28,6 +28,12 @@
   margin-bottom: 15px;
 }
 
+.clock-red-car {
+  font-size: 1.7rem;
+  color: var(--brand-color);
+}
+
+
 @media (min-width: 320px) {
   .cards__nameplate {
     display: grid;
