@@ -239,3 +239,15 @@
     grid-column: 2 / 4;
   }
 }
+
+.clock__deals {
+  color: var(--brand-color);
+  font-family: var(--title-font-family);
+  font-size: 26px;
+  font-weight: 400;
+  padding-top: 0%;
+  padding-bottom: 100px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
