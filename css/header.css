@@ -156,8 +156,8 @@
 }
 
 
-/*burger*/
-
+/* BURGER-MENU */
+@media (max-width: 768px) {
 header {
 	display: flex;
 	justify-content: flex-end;
@@ -221,5 +221,43 @@ header {
   top: 50%;
   transform: translate(-50%, 0%) rotate(-45deg); 
 }
+}
 
+/* Desktop */
 
+@media (min-width: 768px) {
+  .text__header {
+    padding-top: 150px;
+    margin-left: 110px;
+    font-size: 110px;
+  }
+
+  .subtitle__header {
+    margin-left: 110px;
+  }
+
+  .buttons {
+    margin-left: 110px;
+    font-size: 20px;
+  }
+
+  .logo__header {
+    margin-left: 130px;
+  }
+
+  .nubex__one {
+    margin-right: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  .nav__link {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+  }
+}
