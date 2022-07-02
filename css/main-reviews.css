@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0 32px;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 767px) {
@@ -16,6 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 45px;
 }
 
 @media (max-width: 767px) {
@@ -59,15 +61,29 @@
 
 .reviews__carousel {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin-top: 45px;
+  max-width: 740px;
+}
+
+.reviews__carousel1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.reviews__carousel2 {
+  overflow: hidden;
 }
 
 .reviews__carousel-part {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 100%;
+  transition: transform 0.5s
 }
 
 .reviews__carousel-people {
@@ -108,4 +124,45 @@
 .reviews__carousel-part > p {
   margin-top: 20px;
   margin-bottom: 0;
+}
+
+.reviews__carousel-button-container:not(.disabled):hover{
+  cursor: pointer;
+}
+
+.reviews__carousel-button-container.disabled:hover{
+  cursor: not-allowed;
+}
+
+@media (max-width: 767px) {
+  .reviews__carousel-button-container {
+    background-color: #e51937;
+    border-radius: 50%;
+    position: relative;
+    min-width: 24px;
+    min-height: 24px;
+  }
+}
+
+.reviews__carousel-button-container:first-child{
+  margin-left: 24px;
+}
+
+.reviews__carousel-button-container:last-child{
+  margin-right: 24px;
+}
+
+.reviews__carousel-button-container > img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 767px) {
+  .reviews__carousel-button-container > img {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 8px;
+    top: 6px;
+  }
 }
