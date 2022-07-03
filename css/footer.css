@@ -44,11 +44,10 @@
   padding: 7px;
   background-color: var(--brand-color);
   margin: 0 8px;
-  opacity: 1;
 }
 
 .footer-icon img:hover {
-  opacity: 0.7;
+  background-color: var(--active-btn-color);
 }
 
 .footer-title {
@@ -105,12 +104,11 @@ input.footer-button {
   color: var(--title-color);
   font-size: 18px;
   font-weight: 400;
-  opacity: 1;
 }
 
 input.footer-button:hover {
   cursor: pointer;
-  opacity: 0.7;
+  background-color: var(--active-btn-color);
 }
 
 .footer__bottom {
