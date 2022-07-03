@@ -43,7 +43,7 @@
   function showCurrentSlide() {
     const slideContainer = document.querySelector(
       ".carousel__advantage .slide-container"
-    );
+  );
     slideContainer.innerHTML = slides[slideIdx];
     // if (window.innerWidth > 600) {
     if (window.matchMedia("(min-width: 760px)").matches) {
@@ -68,11 +68,11 @@
   }
 
   showCurrentSlide();
-  const nextButton = document.querySelector('.carousel__advantage > .next-btn');
-  nextButton.addEventListener('click', nextSlide);
+  const nextButton = document.querySelector(".advantage__container > .next-btn");
+  nextButton.addEventListener("click", nextSlide);
 
-  const prevButton = document.querySelector('.carousel__advantage > .prev-btn');
-  prevButton.addEventListener('click', prevSlide);
+  const prevButton = document.querySelector(".advantage__container > .prev-btn");
+  prevButton.addEventListener("click", prevSlide);
 
-  window.addEventListener('resize', showCurrentSlide);
+  window.addEventListener("resize", showCurrentSlide);
 })();

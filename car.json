@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "brand": "ROLLS-ROYCE",
+    "price": 505.95,
+    "model": "Rolls-Royce Phantom VIII",
+    "characteristics": "6.75 L (412 cu in)",
+    "img": "img/cars/cars-rolls-royse.png"
+  },
+  {
+    "id": 2,
+    "brand": "BMW",
+    "price": 374.45,
+    "model": "2021 BMW X6",
+    "characteristics": "xDrive 40i Sports Activity Coupe",
+    "img": "img/cars/cars-bmw.png"
+  },
+  {
+    "id": 3,
+    "brand": "HONDA",
+    "price": 199.95,
+    "model": "Honda accord",
+    "characteristics": "Sport special edition",
+    "img": "img/cars/cars-honda.png"
+  },
+  {
+    "id": 4,
+    "brand": "VOLKSWAGEN",
+    "price": 210.45,
+    "model": "Volkswagen Golf Hatchback",
+    "characteristics": "2.0 TSI 245 GTI Performance 5dr",
+    "img": "img/cars/cars-volkswagen.png"
+  }
+]
