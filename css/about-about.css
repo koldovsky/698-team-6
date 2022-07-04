@@ -1,0 +1,105 @@
+h2 {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: var(--title-font-family);
+    color: var(--title-color);
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subtitle-text {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 50px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.about__image {
+    background-image: url(../img/about/about-image-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 31px 27px;
+}
+
+.about-cheklist-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-cheklist-item {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.about-cheklist-item i {
+    color: var(--background-color);
+    background-color: var(--brand-color);
+    padding: 2px 3px;
+    border-radius: 50%;
+}
+
+.cheklist-text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--title-color);
+    margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 17px;
+        letter-spacing: 1.7px;
+        line-height: 24px;
+    }
+
+    h3 {
+        font-size: 58px;
+    }
+
+    .about {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding-top: 105px;
+    }
+
+    .about__image {
+        padding: 34px 28px;
+    }
+}
