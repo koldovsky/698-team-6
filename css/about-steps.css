@@ -11,6 +11,7 @@
     grid-template-columns: 1fr;
     gap: 30px;
     margin-top: 45px;
+    margin-bottom: 60px;
 }
 
 .steps__card {
@@ -35,6 +36,12 @@
     text-align: center;
 }
 
+video {
+    width: 100%;
+    margin-top: 60px;
+    border: transparent;
+}
+
 @media (min-width: 768px) {
     .steps__cards {
         grid-template-columns: 1fr 1fr;
@@ -47,6 +54,8 @@
     .steps__card-number {
         font-size: 46px;
     }
+
+
 }
 
 @media (min-width: 992px) {
@@ -62,4 +71,5 @@
     .steps__card-number {
         font-size: 54px;
     }
+
 }
