@@ -27,6 +27,10 @@
     font-size: 38px;
 }
 
+.steps__card-title {
+    text-align: center;
+}
+
 .steps__card-description {
     text-align: center;
 }
@@ -52,7 +56,7 @@
     }
 
     .steps__card {
-        padding: 30px 40px;
+        padding: 30px;
     }
 
     .steps__card-number {

@@ -16,13 +16,16 @@ h4 {
 h3 {
     font-weight: 500;
     font-size: 40px;
+    line-height: 40px;
     margin-bottom: 20px;
 }
 
 h4 {
     font-weight: 500;
     font-size: 24px;
+    line-height: 24px;
     margin-bottom: 20px;
+    letter-spacing: 0.24px;
 }
 
 .subtitle-text {
@@ -40,7 +43,6 @@ p {
 .about {
     display: grid;
     grid-template-columns: 1fr;
-
     gap: 50px;
     padding-top: 90px;
     padding-bottom: 60px;
@@ -91,6 +93,13 @@ p {
 
     h3 {
         font-size: 58px;
+        line-height: 58px;
+    }
+
+    h4 {
+        font-size: 26px;
+        letter-spacing: 0.26px;
+        line-height: 26px;
     }
 
     .about {
@@ -101,5 +110,25 @@ p {
 
     .about__image {
         padding: 34px 28px;
+    }
+}
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 21px;
+        letter-spacing: 2.1px;
+        line-height: 30px;
+    }
+
+    h3 {
+        font-size: 76px;
+        line-height: 76px;
+    }
+
+    h4 {
+        font-size: 28px;
+        letter-spacing: 0.28px;
+        line-height: 28px;
+
     }
 }
