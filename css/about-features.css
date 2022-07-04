@@ -1,0 +1,114 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.features>.subtitle-text,
+.features__title,
+.features__subtitle {
+    text-align: center;
+    max-width: 800px;
+}
+
+.slider-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.features-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.features-card-description {
+    max-width: 96%;
+}
+
+.features-card-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.features button {
+    background-color: var(--title-color);
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 9px;
+    border: none;
+    border-radius: 50%;
+}
+
+.features button:hover {
+    background-color: var(--title-color);
+    opacity: 1;
+    cursor: pointer;
+    transition: all .2s ease-out;
+}
+
+.features button i {
+    font-size: 16px;
+    color: var(--background-bottom-color)
+}
+
+.btn-prev {
+    margin-right: -30px;
+    z-index: 2;
+}
+
+.btn-next {
+    margin-left: -30px;
+    z-index: 2;
+}
+
+@media (min-width: 1280px) {
+    .features .container-main {
+        padding: 0;
+    }
+
+    .features button {
+        background-color: var(--background-bottom-color-color);
+        opacity: 1;
+        padding: 0;
+        border: none;
+    }
+
+    .features button:hover {
+        background-color: var(--background-bottom-color-color);
+    }
+
+    .features button i {
+        font-size: 30px;
+        color: rgb(255, 255, 255, 0.75);
+    }
+
+    .features button i:hover {
+        color: var(--title-color);
+        transition: all .2s ease-out;
+    }
+
+    .btn-prev {
+        margin-right: 0;
+    }
+
+    .btn-next {
+        margin-left: 0;
+    }
+}
