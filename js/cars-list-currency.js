@@ -30,7 +30,7 @@
             2
           )} / MONTH</p>
           <p class="cars_carousel-model">${car.model}</p>
-          <p class="cars__carousel-characteristics">${car.characteristics}")</p>
+          <p class="cars__carousel-characteristics">${car.characteristics}</p>
           <a href="#" class="cars__carousel-learn">LEARN MORE</a>
         </div>`;
     }

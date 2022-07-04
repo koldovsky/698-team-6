@@ -3,6 +3,11 @@
   margin-bottom: 80px;
 }
 
+.cars__carousel {
+  display: flex;
+  justify-content: space-around;
+}
+
 .currency {
   border: 1px solid var(--brand-color);
   background: var(--background-color);
@@ -33,11 +38,6 @@
   background: var(--active-btn-color);
   border-color: var(--active-btn-color);
   transition: 0.3s;
-}
-
-.cars-text-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .cars__title {
@@ -71,7 +71,7 @@
   
 }
 
-.cars__carousel {5
+.cars__carousel {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
@@ -113,7 +113,7 @@
 @media (min-width: 320px) {
   .cars__carousel {
     grid-template-columns: 1fr;
-    gap: 5px;
+    gap: 8px;
   }
 }
 
@@ -121,7 +121,7 @@
   .cars-carousel-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 10px;
   }
   .cars__carousel-brand {
     font-size: 26px;
@@ -129,10 +129,6 @@
 }
 
 @media (min-width: 980px) {
-  .cars__carousel {
-    display: flex;
-    width: 100%;
-  }
   .cars__carousel-brand {
     font-size: 28px;
   }

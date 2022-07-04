@@ -1,5 +1,5 @@
 .reviews {
-  background: black;
+  background: var(--background-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,9 +40,11 @@
 
 .reviews__big-text {
   margin: 20px 0 0 0;
-  font-size: 58px;
-  color: #ffffff;
+  font-size: 72px;
+  color: var(--title-color);
   text-align: center;
+  font-weight: 500;
+  font-family: Teko, sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -55,7 +57,7 @@
   margin: 25px 0 0 0;
   font-size: 19px;
   line-height: 1.6;
-  color: #aaa4a4;
+  color: var(--text-color);
   text-align: center;
 }
 
@@ -99,8 +101,10 @@
 }
 
 .reviews__carousel-name {
-  font-size: 26px;
-  color: white;
+  font-size: 32px;
+  color: var(--title-color);
+  font-family: Teko, sans-serif;
+  font-weight: 500;
 }
 
 @media (max-width: 767px) {
@@ -110,14 +114,14 @@
 }
 
 .reviews__carousel-reviewstext {
-  color: #9b9797;
+  color: var(--text-color);
   font-size: 17px;
   text-align: center;
 }
 
 .reviews__carousel-data,
 .reviews__carousel-position {
-  color: #e51937;
+  color: var(--brand-color);
   font-size: 12px;
 }
 
@@ -136,7 +140,7 @@
 
 @media (max-width: 767px) {
   .reviews__carousel-button-container {
-    background-color: #e51937;
+    background-color: var(--brand-color);
     border-radius: 50%;
     position: relative;
     min-width: 24px;
