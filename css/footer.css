@@ -38,16 +38,21 @@
   margin-top: 30px;
 }
 
-.footer-icon img {
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 28px;
   height: 28px;
   padding: 7px;
+  color: var(--title-color);
   background-color: var(--brand-color);
   margin: 0 8px;
 }
 
-.footer-icon img:hover {
+.footer-icon:hover {
   background-color: var(--active-btn-color);
+  color: var(--background-bottom-color);
 }
 
 .footer-title {

@@ -1,11 +1,4 @@
 /* Iryna Shtynda start */
-* {
-  box-sizing: border-box;
-}
-
-li {
-  list-style: none;
-}
 
 .contacts {
   background-color: var(--background-bottom-color);
@@ -51,8 +44,8 @@ li {
 }
 
 .contact-icon {
-  width: 20px;
-  height: 24px;
+  color: var(--brand-color);
+  font-size: 22px;
 }
 
 .contact-link {
@@ -122,12 +115,12 @@ li {
   justify-content: space-between;
 }
 
-.gallery-carousel .container-main .slider-container {
+.gallery-carousel .slider-container {
   display: flex;
   justify-content: center;
 }
 
-.gallery-carousel .container-main .slider-container div {
+.gallery-carousel .slider-container div {
   display: flex;
   justify-content: center;
   padding: 0 15px;
@@ -138,20 +131,27 @@ li {
   width: 100%;
 }
 
-.gallery-carousel .container-main button {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 7px;
+.gallery-carousel button {
+  background-color: var(--title-color);
+  opacity: 0.75;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 9px;
   border: none;
   border-radius: 50%;
 }
 
-.gallery-carousel .container-main button img {
-  width: 16px;
-  height: 16px;
+.gallery-carousel button:hover {
+  background-color: var(--title-color);
+  opacity: 1;
+  cursor: pointer;
+  transition: all .2s ease-out;
 }
 
-.gallery-carousel .container-main button:hover {
-  cursor: pointer;
+.gallery-carousel button i {
+  font-size: 16px;
+  color: var(--background-bottom-color)
 }
 
 .btn-prev {
@@ -169,15 +169,25 @@ li {
     padding: 0;
   }
 
-  .gallery-carousel .container-main button {
-    background-color: var(--background-bottom-color);
-    border: none;
+  .gallery-carousel button {
+    background-color: var(--background-bottom-color-color);
+    opacity: 1;
     padding: 0;
+    border: none;
   }
 
-  .gallery-carousel .container-main button img {
-    width: 30px;
-    height: 30px;
+  .gallery-carousel button:hover {
+    background-color: var(--background-bottom-color-color);
+  }
+
+  .gallery-carousel button i {
+    font-size: 30px;
+    color: rgb(255, 255, 255, 0.75);
+  }
+
+  .gallery-carousel button i:hover {
+    color: var(--title-color);
+    transition: all .2s ease-out;
   }
 
   .btn-prev {
