@@ -43,7 +43,7 @@ video {
 }
 
 @media (min-width: 768px) {
-    .steps-cards {
+    .steps__cards {
         grid-template-columns: 1fr 1fr;
     }
 
