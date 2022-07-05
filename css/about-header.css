@@ -173,7 +173,7 @@ body.lock {
 
 .navigation-icon:hover {
     background-color: var(--brand-color);
-    color: var(--background-bottom-color);
+    color: transparent;
 }
 
 @media (min-width: 992px) {
@@ -188,9 +188,10 @@ body.lock {
     }
 
     .navigation-wrapper {
-        background-color: rgb(0, 0, 0, 0);
+        background-color: transparent;
         display: grid;
-        grid-template-columns: 6fr 1fr;
+        grid-template-columns: 5fr 1fr;
+        gap: 0;
         position: relative;
         padding: 0;
     }
