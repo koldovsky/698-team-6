@@ -1,0 +1,50 @@
+.learn-more {
+    background-image: url(../img/about/learn-more-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 30px;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+
+.learn-more__title,
+.learn-more__subtitle {
+    text-align: center;
+}
+
+.learn-more__button {
+    font-family: var(--title-font-family);
+    font-size: 18px;
+    color: var(--title-color);
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    line-height: 30px;
+    padding: 13px 40px;
+    border: none;
+    background-color: var(--background-card);
+    margin-top: 15px;
+}
+
+.learn-more__button:hover {
+    color: var(--background-card);
+    background-color: var(--title-color);
+}
+
+@media (min-width: 768px) {
+    .learn-more {
+        padding: 80px 34px;
+    }
+}
+
+@media (min-width: 992px) {
+    .learn-more {
+        padding: 120px 40px;
+    }
+}
+
+.learn-more__button {
+    margin-top: 20px;
+}

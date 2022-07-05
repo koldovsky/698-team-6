@@ -59,6 +59,10 @@ p {
     padding: 31px 27px;
 }
 
+.about__image-title {
+    text-align: end;
+}
+
 .about-cheklist-item {
     margin-top: 10px;
     margin-bottom: 10px;

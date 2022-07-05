@@ -14,7 +14,7 @@
     margin-bottom: 60px;
 }
 
-.steps__card {
+.steps-card {
     background-color: var(--background-card);
     display: flex;
     flex-direction: column;
@@ -22,17 +22,17 @@
     padding: 31px 27px;
 }
 
-.steps__card-number {
+.steps-card-number {
     color: var(--brand-color);
     font-weight: 400;
     font-size: 38px;
 }
 
-.steps__card-title {
+.steps-card-title {
     text-align: center;
 }
 
-.steps__card-description {
+.steps-card-description {
     text-align: center;
 }
 
@@ -43,15 +43,15 @@ video {
 }
 
 @media (min-width: 768px) {
-    .steps__cards {
+    .steps-cards {
         grid-template-columns: 1fr 1fr;
     }
 
-    .steps__card {
+    .steps-card {
         padding: 34px 28px;
     }
 
-    .steps__card-number {
+    .steps-card-number {
         font-size: 46px;
     }
 
@@ -64,11 +64,11 @@ video {
         margin-top: 50px;
     }
 
-    .steps__card {
+    .steps-card {
         padding: 30px;
     }
 
-    .steps__card-number {
+    .steps-card-number {
         font-size: 54px;
     }
 
