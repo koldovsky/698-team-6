@@ -137,7 +137,7 @@ body.lock {
     content: "";
     position: absolute;
     height: 2px;
-    bottom: -3px;
+    bottom: -5px;
     width: 0;
     left: 0;
     background-color: var(--title-color);
@@ -173,7 +173,7 @@ body.lock {
 
 .navigation-icon:hover {
     background-color: var(--brand-color);
-    color: transparent;
+    color: var(--background-color);
 }
 
 @media (min-width: 992px) {

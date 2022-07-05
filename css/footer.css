@@ -52,7 +52,7 @@
 
 .footer-icon:hover {
   background-color: var(--active-btn-color);
-  color: transparent;
+  color: var(--background-bottom-color);
 }
 
 .footer-title {
