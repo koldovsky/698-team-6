@@ -79,7 +79,7 @@
 }
 
 @media (min-width: 1280px) {
-    .features .container-main {
+    .features>.container-main {
         padding: 0;
     }
 

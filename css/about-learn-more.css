@@ -1,13 +1,16 @@
 .learn-more {
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+
+.learn-more-content {
     background-image: url(../img/about/learn-more-bg.png);
     background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 30px;
-    margin-bottom: 90px;
-    margin-top: 30px;
+    padding: 60px 31px;
 }
 
 .learn-more__title,
@@ -38,13 +41,13 @@
 }
 
 @media (min-width: 768px) {
-    .learn-more {
+    .learn-more-content {
         padding: 80px 34px;
     }
 }
 
 @media (min-width: 992px) {
-    .learn-more {
+    .learn-more-content {
         padding: 120px 40px;
     }
 }
