@@ -43,7 +43,6 @@
     }
 
     showCurrentSlide();
-    setInterval(nextSlide, 3000);
 
     const nextButton = document.querySelector('#gallery > div > button.btn-next');
     nextButton.addEventListener('click', nextSlide);
