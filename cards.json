@@ -1,0 +1,44 @@
+[
+    {
+       "id":1,
+       "name":"FULLY INSURED LEASING",
+       "description":"AD Insurance Company is our partner. Fully Comprehensive Insurance is included in the basic package.",
+       "image":"img/consume/car-rent.svg",
+       "alttext":"car-rent"
+    },
+    {
+       "id":2,
+       "name":"MAINTAINING ALL THE VEHICLES",
+       "description":"You get a fully serviceable car that has passed a timely technical inspection. No surprises on the roads!",
+       "image":"img/consume/car-repair.svg",
+       "alttext":"repair"
+    },
+    {
+       "id":3,
+       "name":"CAR LEASING FOR PERSONAL TRIPS",
+       "description":"If you are planning a family trip or need a car for daily rides, we will find a suitable and affordable option.",
+       "image":"img/consume/map-location.svg",
+       "alttext":"map-location"
+    },
+    {
+       "id":4,
+       "name":"LEASING FOR BUSINESS AFFAIRS",
+       "description":"We work with companies that need vehicles for representational activities or simply daily use.",
+       "image":"img/consume/car-rental.svg",
+       "alttext":"car-rental"
+    },
+    {
+       "id":5,
+       "name":"SHORT-TERM LEASING DEALS",
+       "description":"You can start with 3 or 6 months of lease. We will find a suitable option tailored to your needs.",
+       "image":"img/consume/calendar.svg",
+       "alttext":"calendar"
+    },
+    {
+       "id":6,
+       "name":"CONTRACT HIRE GUIDE",
+       "description":"The monthly lease amount is based on the original cost of the vehicle, the mileage, and the length of the contract.",
+       "image":"img/consume/car-rentalnew.svg",
+       "alttext":"car-rentalnew"
+    }
+ ]

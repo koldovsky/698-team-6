@@ -83,6 +83,11 @@
 .leasing-inform {
   background: var(--background-card);
   padding: 27px 25px;
+  transition: all 0.8s ease 0s;
+}
+.leasing-inform:hover {
+  transform: scale3d(1.2, 1.2, 1.2);
+ 
 }
 .leasing-logo {
   width: 50px;
