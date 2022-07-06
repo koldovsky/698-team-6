@@ -116,6 +116,13 @@ input.footer-button:hover {
   background-color: var(--active-btn-color);
 }
 
+.footer-form-status {
+  color: var(--title-color);
+  padding-top: 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .footer__bottom {
   display: flex;
   flex-direction: column;

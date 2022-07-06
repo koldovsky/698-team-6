@@ -110,33 +110,31 @@
 
 .gallery-carousel .container-main {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
 .gallery-carousel .slider-container {
   display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 .gallery-carousel .slider-container div {
-  display: flex;
-  justify-content: center;
   padding: 0 15px;
+  width: 100%;
 }
 
 .gallery-carousel img {
   display: block;
   width: 100%;
+  height: 260px;
+  object-fit: cover;
 }
 
 .gallery-carousel button {
   background-color: var(--title-color);
   opacity: 0.75;
   display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 6px 9px;
   border: none;
   border-radius: 50%;
@@ -162,6 +160,13 @@
 .btn-next {
   margin-left: -30px;
   z-index: 2;
+}
+
+
+@media (min-width: 480px) {
+  .gallery-carousel img {
+    height: 205px;
+  }
 }
 
 @media (min-width: 1280px) {
