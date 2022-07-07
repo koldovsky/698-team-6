@@ -9,13 +9,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 45px;
-  padding: 0 17%;
 }
 
 .cards__name {
-  padding: 2px 5px;
   width: 100%;
-  height: 50%;
+  height: 77px;
 }
 
 .cards__wrapper {
