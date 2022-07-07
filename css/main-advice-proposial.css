@@ -37,11 +37,10 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  /*min-width: 100vh;*/
   margin-top: 30px;
 }
 
-.advice__general > img {
+.advice__general>img {
   display: block;
 }
 
@@ -138,13 +137,22 @@
   }
 }
 
+.proposal__div {
+  margin-top: 50px;
+  padding-top: 400px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 30px;
+  background-color: var(--background-color);
+}
+
 .proposal__ford {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(../img/advice/steering_wheel_advice.png);
   background-size: cover;
   background-position: center;
   border: 1px;
-  margin: 15px;
+  margin: 24px;
 }
 
 .proposal__volkswagen {
@@ -153,10 +161,10 @@
   background-size: cover;
   background-position: center;
   border: 1px;
-  margin: 15px;
+  margin: 24px;
 }
 
-.advice__proposal > img {
+.advice__proposal>img {
   display: block;
   width: 100%;
 }
@@ -201,22 +209,13 @@
   padding-right: 15px;
 }
 
-.proposal__div {
-  margin-top: 50px;
-  padding-top: 400px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 30px;
-  background-color: var(--background-color);
-}
-
 .proposal__div-deals {
   margin-top: 55px;
-  padding-top: 55px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 0;
   margin-bottom: 0;
+  padding-top: 55px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-bottom: 0;
   background-color: var(--background-color);
 }
 
@@ -224,7 +223,19 @@
   .proposal__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+  }
+
+  .proposal__ford-focus,
+  .proposal__volkswagen-golf {
+    font-size: 26px;
+  }
+
+  .deals__hottest {
+    font-size: 58px;
+  }
+
+  .advice__banner {
+    font-size: 84px;
   }
 }
 
@@ -232,11 +243,24 @@
   .general__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+    padding-top: 120px;
+  }
+
+  .proposal__ford-focus,
+  .proposal__volkswagen-golf {
+    font-size: 28px;
+  }
+
+  .deals__hottest {
+    font-size: 76px;
   }
 
   .proposal__grid {
     grid-column: 2 / 4;
+  }
+
+  .advice__banner {
+    font-size: 108px;
   }
 }
 
@@ -246,7 +270,7 @@
   font-size: 26px;
   font-weight: 400;
   padding-top: 0%;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   padding-right: 50px;
   display: flex;
   justify-content: flex-end;
