@@ -8,12 +8,20 @@
 .cards__nameplate {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 45px;
+  gap: 35px;
 }
 
 .cards__name {
   width: 100%;
   height: 77px;
+}
+
+.toyotta {
+height: 30px;
+}
+
+.teslla {
+  height: 25px;
 }
 
 .cards__wrapper {
@@ -28,9 +36,12 @@
 }
 
 .clock-red-car {
-  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  font-size: 2.2rem;
   color: var(--brand-color);
 }
+
 
 
 @media (min-width: 320px) {
