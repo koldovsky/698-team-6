@@ -8,7 +8,8 @@
 .cards__nameplate {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 35px;
+  gap: 35px 35px;
+  margin-top: 80px;
 }
 
 .cards__name {
@@ -30,8 +31,6 @@ height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
-  margin-bottom: 15px;
   padding: 15px;
 }
 
