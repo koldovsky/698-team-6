@@ -1,8 +1,8 @@
 .cars__red-background {
-  background: url(../img/cars/red-car-background.png) center;
+  background: url(../img/cars/red-car-background.png) 50% 70%;
   background-size: cover;
-  height: 580px;
-  padding-top: 400px;
+  padding-top: 360px;
+  padding-bottom: 200px;
 }
 
 .cards__nameplate {
@@ -30,7 +30,8 @@
 .clock-red-car {
   display: flex;
   justify-content: center;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
   color: var(--brand-color);
 }
 
@@ -69,5 +70,12 @@
   .cards__nameplate {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cars__red-background {
+    padding-top: 345px;
+    padding-bottom: 215px;
   }
 }
