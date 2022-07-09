@@ -7,8 +7,8 @@
 }
 
 .contacts .container-main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 60px;
 }
 
@@ -68,17 +68,9 @@
 
 @media (min-width: 768px) {
   .contacts .container-main {
-    flex-direction: row;
+    grid-template-columns: 7fr 5fr;
     justify-content: space-between;
     gap: 30px;
-  }
-
-  .contacts__content {
-    flex: 7;
-  }
-
-  .contacts__map {
-    flex: 5;
   }
 
   .contacts__content-title {
