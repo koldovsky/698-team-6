@@ -80,8 +80,7 @@
 }
 
 .footer-menu-item a:hover {
-  color: var(--title-color);
-  text-decoration: underline;
+  color: var(--brand-color);
 }
 
 .footer-form {
