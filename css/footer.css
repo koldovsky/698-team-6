@@ -48,6 +48,7 @@
   color: var(--title-color);
   background-color: var(--brand-color);
   margin: 0 8px;
+  transition: 0.3s;
 }
 
 .footer-icon:hover {
@@ -108,12 +109,14 @@ input.footer-button {
   color: var(--title-color);
   font-size: 18px;
   font-weight: 400;
+  transition: 0.3s;
 }
 
 input.footer-button:hover {
   cursor: pointer;
   background-color: var(--active-btn-color);
 }
+
 
 .footer-form-status {
   color: var(--title-color);
