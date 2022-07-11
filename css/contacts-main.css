@@ -121,6 +121,18 @@ p {
   background-color: var(--active-btn-color);
 }
 
+.valid{
+  border: 1px solid green;
+}
+
+.invalid{
+  border: 1px solid red
+}
+
+input{
+  outline: none;
+}
+
 @media (min-width: 320px) {
   h2 {
     font-size: 17px;
