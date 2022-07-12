@@ -1,203 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/contact.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <title>Contact Page</title>
-  </head>
-  <body>
-    <header class="header">
-      <nav class="header__navigation">
-        <div class="container-main">
-          <div class="navigation-logo">
-            <a href="index.html"
-              ><img src="img/logo.svg" alt="FUTURE LEASE"
-            /></a>
-          </div>
-          <div class="navigation-burger"><span></span></div>
-          <div class="navigation-wrapper">
-            <div class="navigation-menu">
-              <a class="navigation-menu-item" href="index.html#cars">CARS</a>
-              <a class="navigation-menu-item" href="about.html">ABOUT US</a>
-              <a class="navigation-menu-item" href="index.html#reviews"
-                >REVIEWS</a
-              >
-              <a class="navigation-menu-item" href="index.html#news">NEWS</a>
-              <a class="navigation-menu-item" href="contact.html"
-                >OUR CONTACTS</a
-              >
-            </div>
-            <div class="navigation-social">
-              <a href="https://www.facebook.com" target="_blank">
-                <div class="navigation-icon">
-                  <i class="fa-brands fa-facebook-f"></i>
-                </div>
-              </a>
-              <a href="https://twitter.com" target="_blank">
-                <div class="navigation-icon">
-                  <i class="fa-brands fa-twitter"></i>
-                </div>
-              </a>
-              <a href="https://www.linkedin.com" target="_blank">
-                <div class="navigation-icon">
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </div>
-              </a>
-            </div>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="css/contact.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <title>Contact Page</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__navigation">
+      <div class="container-main">
+        <div class="navigation-logo">
+          <a href="index.html"><img src="img/logo.svg" alt="FUTURE LEASE" /></a>
         </div>
-      </nav>
-      <div class="header__banner">
-        <div class="container-main">
-          <h1 class="banner-title container">CONTACTS</h1>
-          <p class="banner-text">HOME > CONTACTS</p>
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="main-container">
-        <h2>CONTACT US</h2>
-        <h3 class="title-text">CONTACTS</h3>
-        <p class="paragraph-text">
-          Feel free to contact us in any convenient way.
-        </p>
-        <div class="adress">
-          <div class="adress__title">
-            <h4>ADRESS</h4>
-            <h4>HOURS</h4>
-            <h4>CONTACTS</h4>
+        <div class="navigation-burger"><span></span></div>
+        <div class="navigation-wrapper">
+          <div class="navigation-menu">
+            <a class="navigation-menu-item" href="index.html#cars">CARS</a>
+            <a class="navigation-menu-item" href="about.html">ABOUT US</a>
+            <a class="navigation-menu-item" href="index.html#reviews">REVIEWS</a>
+            <a class="navigation-menu-item" href="index.html#news">NEWS</a>
+            <a class="navigation-menu-item" href="contact.html">OUR CONTACTS</a>
           </div>
-          <div class="adress__discription">
-            <div class="adress__paragraph">
-              <p>142 Madison St, Brooklyn, NY 11216, USA</p>
-              <p>Monday - Saturday: 11 AM - 9 PM</p>
-            </div>
-            <div class="adress__contact">
-              <a href="tel:+1(234)5678900" class="adress-nr"
-                >+1 (234) 567 89 00</a
-              >
-              <a href="mailto:futurelease@email.com" class="adress-email"
-                >futurelease@email.com</a
-              >
-            </div>
-          </div>
-        </div>
-        <iframe
-          id="gmap_canvas"
-          src="https://maps.google.com/maps?q=142%20Madison%20St%20brook&t=&z=15&ie=UTF8&iwloc=&output=embed"
-        ></iframe>
-      </div>
-      <form class="contact-form">
-        <input
-          type="text"
-          placeholder="Your name*"
-          class="form-text"
-          required
-        />
-        <input
-          type="text"
-          placeholder="Your phone number*"
-          class="form-text number"
-          maxlength="12"
-          required
-          onkeydown="validatorNum()"
-          oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');"
-        />
-        <input
-          type="text"
-          placeholder="Your email*"
-          class="form-text email"
-          onkeydown="validatorEmail()"
-        />
-        <input type="text" class="form-text" placeholder="Car model*" />
-        <input type="date" class="form-text" required />
-        <input type="submit" value="Send" class="form-submit" />
-      </form>
-    </main>
-    <footer class="footer">
-      <div class="footer__top container-main">
-        <div class="footer__top-inner">
-          <div class="footer-logo">
-            <a href="index.html"
-              ><img src="img/logo.svg" alt="FUTURE LEASE"
-            /></a>
-          </div>
-          <div class="footer-description">
-            FUTURELEASE IS A LEADING USA COMPANY FOR BUSINESS AND PERSONAL
-            LEASING.
-          </div>
-          <div class="footer-socials">
+          <div class="navigation-social">
             <a href="https://www.facebook.com" target="_blank">
-              <div class="footer-icon">
+              <div class="navigation-icon">
                 <i class="fa-brands fa-facebook-f"></i>
               </div>
             </a>
-            <a href="https://www.instagram.com" target="_blank">
-              <div class="footer-icon">
-                <i class="fa-brands fa-instagram"></i>
+            <a href="https://twitter.com" target="_blank">
+              <div class="navigation-icon">
+                <i class="fa-brands fa-twitter"></i>
               </div>
             </a>
-            <a href="https://www.youtube.com" target="_blank">
-              <div class="footer-icon">
-                <i class="fa-brands fa-youtube"></i>
+            <a href="https://www.linkedin.com" target="_blank">
+              <div class="navigation-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
               </div>
             </a>
           </div>
         </div>
-        <div class="footer__top-inner">
-          <h4 class="footer-title">NAVIGATION</h4>
-          <ul class="footer-menu">
-            <li class="footer-menu-item"><a href="index.html#cars">CARS</a></li>
-            <li class="footer-menu-item"><a href="#">DEALS</a></li>
-            <li class="footer-menu-item"><a href="#">ABOUT US</a></li>
-            <li class="footer-menu-item"><a href="#">FEATURES</a></li>
-          </ul>
+      </div>
+    </nav>
+    <div class="header__banner">
+      <div class="container-main">
+        <h1 class="banner-title container">CONTACTS</h1>
+        <p class="banner-text">HOME > CONTACTS</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main-container">
+      <h2>CONTACT US</h2>
+      <h3 class="title-text">CONTACTS</h3>
+      <p class="paragraph-text">
+        Feel free to contact us in any convenient way.
+      </p>
+      <div class="adress">
+        <div class="adress__title">
+          <h4>ADRESS</h4>
+          <h4>HOURS</h4>
+          <h4>CONTACTS</h4>
         </div>
-        <div class="footer__top-inner">
-          <h4 class="footer-title">QUICK LINKS</h4>
-          <ul class="footer-menu">
-            <li class="footer-menu-item"><a href="index.html#news">NEWS</a></li>
-            <li class="footer-menu-item">
-              <a href="index.html#partners">PARTNERS</a>
-            </li>
-            <li class="footer-menu-item">
-              <a href="index.html#gallery">GALLERY</a>
-            </li>
-            <li class="footer-menu-item"><a href="">CONTACTS</a></li>
-          </ul>
-        </div>
-        <div class="footer__top-inner">
-          <h4 class="footer-title">HELP & SUPPORT</h4>
-          <ul class="footer-menu">
-            <li class="footer-menu-item"><a href="#">GUIDE TO LEASING</a></li>
-            <li class="footer-menu-item">
-              <a href="#">COMPLAINT PROCEDURE</a>
-            </li>
-            <li class="footer-menu-item"><a href="#">PRIVACY POLICY</a></li>
-            <li class="footer-menu-item"><a href="#">TERMS & CONDITIONS</a></li>
-          </ul>
-        </div>
-        <div class="footer__top-inner">
-          <h4 class="footer-title">GET SPECIAL OFFERS</h4>
-          <form class="footer-form" action="contact" method="post">
-            <input type="email" name="email" placeholder="Email" required />
-            <input class="footer-button" type="submit" value="SUBSCRIBE" />
-          </form>
-          <div class="footer-form-status"></div>
+        <div class="adress__discription">
+          <div class="adress__paragraph">
+            <p>142 Madison St, Brooklyn, NY 11216, USA</p>
+            <p>Monday - Saturday: 11 AM - 9 PM</p>
+          </div>
+          <div class="adress__contact">
+            <a href="tel:+1(234)5678900" class="adress-nr">+1 (234) 567 89 00</a>
+            <a href="mailto:futurelease@email.com" class="adress-email">futurelease@email.com</a>
+          </div>
         </div>
       </div>
-      <div class="footer__bottom container-main">
-        <span class="footer__bottom-text">© CREATED BY TEAM 6</span>
-        <span class="footer__bottom-text">ALL RIGHTS RESERVED</span>
+      <iframe id="gmap_canvas"
+        src="https://maps.google.com/maps?q=142%20Madison%20St%20brook&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+    </div>
+    <form class="contact-form">
+      <input type="text" placeholder="Your name*" class="form-text" required />
+      <input type="text" placeholder="Your phone number*" class="form-text number" maxlength="12" required
+        onkeydown="validatorNum()"
+        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" />
+      <input type="text" placeholder="Your email*" class="form-text email" onkeydown="validatorEmail()" />
+      <input type="text" class="form-text" placeholder="Car model*" />
+      <input type="date" class="form-text" required />
+      <input type="submit" value="Send" class="form-submit" />
+    </form>
+  </main>
+  <footer class="footer">
+    <div class="footer__top container-main">
+      <div class="footer__top-inner">
+        <div class="footer-logo">
+          <a href="index.html"><img src="img/logo.svg" alt="FUTURE LEASE" /></a>
+        </div>
+        <div class="footer-description">
+          FUTURELEASE IS A LEADING USA COMPANY FOR BUSINESS AND PERSONAL
+          LEASING.
+        </div>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com" target="_blank">
+            <div class="footer-icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <div class="footer-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </a>
+          <a href="https://www.youtube.com" target="_blank">
+            <div class="footer-icon">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </a>
+        </div>
       </div>
-    </footer>
-    <script src="js/about-burger.js"></script>
-    <script src="js/contacts-validate.js"></script>
-    <script src="js/number-only.js"></script>
-  </body>
+      <div class="footer__top-inner">
+        <h4 class="footer-title">NAVIGATION</h4>
+        <ul class="footer-menu">
+          <li class="footer-menu-item"><a href="index.html#cars">CARS</a></li>
+          <li class="footer-menu-item"><a href="#">DEALS</a></li>
+          <li class="footer-menu-item"><a href="about.html">ABOUT US</a></li>
+          <li class="footer-menu-item"><a href="#">FEATURES</a></li>
+        </ul>
+      </div>
+      <div class="footer__top-inner">
+        <h4 class="footer-title">QUICK LINKS</h4>
+        <ul class="footer-menu">
+          <li class="footer-menu-item"><a href="index.html#news">NEWS</a></li>
+          <li class="footer-menu-item">
+            <a href="index.html#partners">PARTNERS</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="index.html#gallery">GALLERY</a>
+          </li>
+          <li class="footer-menu-item"><a href="#">CONTACTS</a></li>
+        </ul>
+      </div>
+      <div class="footer__top-inner">
+        <h4 class="footer-title">HELP & SUPPORT</h4>
+        <ul class="footer-menu">
+          <li class="footer-menu-item"><a href="#">GUIDE TO LEASING</a></li>
+          <li class="footer-menu-item">
+            <a href="#">COMPLAINT PROCEDURE</a>
+          </li>
+          <li class="footer-menu-item"><a href="#">PRIVACY POLICY</a></li>
+          <li class="footer-menu-item"><a href="#">TERMS & CONDITIONS</a></li>
+        </ul>
+      </div>
+      <div class="footer__top-inner">
+        <h4 class="footer-title">GET SPECIAL OFFERS</h4>
+        <form class="footer-form" action="contact" method="post">
+          <input type="email" name="email" placeholder="Email" required />
+          <input class="footer-button" type="submit" value="SUBSCRIBE" />
+        </form>
+        <div class="footer-form-status"></div>
+      </div>
+    </div>
+    <div class="footer__bottom container-main">
+      <span class="footer__bottom-text">© CREATED BY TEAM 6</span>
+      <span class="footer__bottom-text">ALL RIGHTS RESERVED</span>
+    </div>
+  </footer>
+  <script src="js/about-burger.js"></script>
+  <script src="js/contacts-validate.js"></script>
+  <script src="js/number-only.js"></script>
+</body>
+
 </html>
