@@ -1,13 +1,13 @@
-function validatorNum() {
-    const pattern = /^[0-9]*$/gm;
-    const qwe = document.querySelector(".contact-form");
-    const number = document.queruSelector(".number").value;
-  
-    if (number.match(pattern)) {
-      qwe.classList.add("valid");
-      qwe.classList.remove("invalid");
-    } else {
-      qwe.classList.remove("valid");
-      qwe.classList.add("invalid");
-    }
-  }
+function addDashes(f) {
+    var r = /(\D+)/g,
+        firstNum = '',
+        secondNum = '',
+        thirdNum = '',
+        lastNum = '';
+    f.value = f.value.replace(r, '');
+    firstNum = f.value.substr(0, 3);
+    secondNum = f.value.substr(3, 3);
+    thirdNum = f.value.substr(6, 2);
+    lastNum = f.value.substr(8, 2);
+    f.value = firstNum + '-' + secondNum + '-' + thirdNum + '-' + lastNum;
+}

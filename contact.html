@@ -82,8 +82,8 @@
     </div>
     <form class="contact-form">
       <input type="text" placeholder="Your name*" class="form-text" required />
-      <input type="text" placeholder="Your phone number*" class="form-text number" maxlength="12" required
-        onkeydown="validatorNum()"
+      <input type="text" placeholder="Your phone number* (234-567-89-00)" class="form-text number" maxlength="13" required
+        onkeyup="addDashes(this)"
         oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" />
       <input type="text" placeholder="Your email*" class="form-text email" onkeydown="validatorEmail()" />
       <input type="text" class="form-text" placeholder="Car model*" />
@@ -166,9 +166,9 @@
       <span class="footer__bottom-text">ALL RIGHTS RESERVED</span>
     </div>
   </footer>
+  <script src="js/number-only.js"></script>
   <script src="js/about-burger.js"></script>
   <script src="js/contacts-validate.js"></script>
-  <script src="js/number-only.js"></script>
 </body>
 <!-- Vladyslav Kulybaba finish -->
 </html>
