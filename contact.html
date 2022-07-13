@@ -10,6 +10,7 @@
   <title>Contact Page</title>
 </head>
 <!-- Vladyslav Kulybaba start -->
+
 <body>
   <header class="header">
     <nav class="header__navigation">
@@ -82,8 +83,8 @@
     </div>
     <form class="contact-form">
       <input type="text" placeholder="Your name*" class="form-text" required />
-      <input type="text" placeholder="Your phone number* (234-567-89-00)" class="form-text number" maxlength="13" required
-        onkeyup="addDashes(this)"
+      <input type="text" placeholder="Your phone number* (234-567-89-00)" class="form-text number" maxlength="13"
+        required onkeyup="addDashes(this)"
         oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" />
       <input type="text" placeholder="Your email*" class="form-text email" onkeydown="validatorEmail()" />
       <input type="text" class="form-text" placeholder="Car model*" />
@@ -123,9 +124,9 @@
         <h4 class="footer-title">NAVIGATION</h4>
         <ul class="footer-menu">
           <li class="footer-menu-item"><a href="index.html#cars">CARS</a></li>
-          <li class="footer-menu-item"><a href="#">DEALS</a></li>
+          <li class="footer-menu-item"><a href="index.html#deals">DEALS</a></li>
           <li class="footer-menu-item"><a href="about.html">ABOUT US</a></li>
-          <li class="footer-menu-item"><a href="#">FEATURES</a></li>
+          <li class="footer-menu-item"><a href="index.html#features">FEATURES</a></li>
         </ul>
       </div>
       <div class="footer__top-inner">
@@ -171,4 +172,5 @@
   <script src="js/contacts-validate.js"></script>
 </body>
 <!-- Vladyslav Kulybaba finish -->
+
 </html>
