@@ -165,7 +165,7 @@
     position: relative;
     z-index: 2;
     overflow: hidden;
-    margin: 20px;
+    margin: 10px;
   }
 
   .menu-btn span {
@@ -260,6 +260,12 @@
 .navigation-icon:hover {
     background-color: var(--brand-color);
     color: var(--background-color);
+}
+
+.logo__header {
+  position: relative;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 }
 
